@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Student Loan Calculator</string>
+    <string name="submit_button"> Calculate </string>
+
+    <string name="StudentLoanAmount">Student Loan Amount: </string>
+    <string name="FeeAmount">Fee Amount: </string>
+    <string name="YearsNeeded">Years needed to pay back loan: </string>
+    <string name="RateAmount">Percent Interest: </string>
+
+</resources>

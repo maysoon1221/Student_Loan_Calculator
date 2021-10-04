@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/StudentLoanAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/StudentLoanAmount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:id="@+id/StudentLoanAnswer"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:id="@+id/FeeAmount"
+        android:text="@string/FeeAmount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <EditText
+        android:id="@+id/FeeAmountAnswer"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:id="@+id/RateAmount"
+        android:text="@string/RateAmount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <EditText
+        android:id="@+id/RateAmountAnswer"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:id="@+id/YearsNeeded"
+        android:text="@string/YearsNeeded"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        />
+
+    <EditText
+        android:id="@+id/YearsNeededAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_button"
+        android:padding="10dp"
+        android:text="@string/submit_button"
+        />
+
+    <TextView
+        android:id="@+id/monthlypaymentarea"
+        android:layout_width="230dp"
+        android:layout_height="32dp"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+</LinearLayout>
